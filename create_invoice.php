@@ -113,7 +113,7 @@ if($_SESSION['userid']) { ?>
 					
 					<div class="form-group">
 						<input type="hidden" value="<?php echo $_SESSION['userid']; ?>" class="form-control" name="userId">
-						<input data-loading-text="Saving Invoice..." type="submit" name="invoice_btn" value="Save Invoice" class="btn btn-success submit_btn invoice-save-btm">						
+						<input data-loading-text="Saving Invoice..." type="submit" name="invoice_btn" value="Generate Invoice" class="btn btn-success submit_btn invoice-save-btm">						
 					</div>
 					
 				</div>
